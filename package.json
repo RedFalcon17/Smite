@@ -1,0 +1,66 @@
+{
+  "name": "ssource",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.2",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "connected-react-router": "^6.5.2",
+    "emotion": "^10.0.14",
+    "firebase": "^6.4.2",
+    "moment": "^2.24.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-media": "^1.9.2",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-spinners": "^0.6.1",
+    "redux": "^4.0.4",
+    "redux-promise-middleware": "^6.1.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.3",
+    "typescript": "3.5.3",
+    "utility-types": "^3.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postbuild": "purgecss --css build/static/css*.css --content build/static/index.html build/static/js/*.js --out build/static/css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^5.0.11",
+    "@types/react-redux": "^7.1.2",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/react-text-truncate": "^0.14.0",
+    "@types/redux": "^3.6.0",
+    "@types/redux-promise-middleware": "^0.0.11",
+    "glob-all": "^3.1.0",
+    "purgecss-webpack-plugin": "^1.6.0",
+    "redux-devtools": "^3.5.0",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}

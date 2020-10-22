@@ -1,0 +1,101 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: #141726;
+}
+
+.home > .blog {
+  max-width: 895px;
+  width: 100%;
+  height: 507px;
+  display: flex;
+  flex-direction: column;
+  background-color: #252b45;
+  margin: 0 13px 40px;
+}
+
+.home > .blog > .blog-photo {
+  width: 100%;
+  height: 100%;
+  max-height: 386px;
+  object-fit: cover;
+}
+
+.home > .blog > .description {
+  min-height: 139px;
+  height: 100%;
+  width: 100%;
+  padding: 26px 5%;
+}
+
+.blog-title {
+  font-size: 28px;
+  padding: 0;
+  margin-bottom: 13px;
+}
+
+.home > .videos {
+  max-width: 438px;
+  width: 100%;
+  padding: 0 13px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home > .videos > .twitch-wrapper {
+  width: 100%;
+  max-height: 241px;
+  height: 100%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.home > .videos > .youtube-wrapper {
+  width: 100%;
+  max-height: 241px;
+  height: 100%;
+  margin-bottom: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.read-more {
+  margin: 0;
+  font-size: 14;
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .home > .blog {
+    margin-left: 0;
+  }
+
+  .home > .videos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .home > .videos > .youtube-wrapper {
+    height: 300px;
+  }
+
+  .home > .videos > .twitch-wrapper {
+    height: 300px;
+  }
+
+  .home > .blog > .description {
+    padding-top: 10px;
+  }
+}

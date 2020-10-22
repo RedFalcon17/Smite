@@ -1,0 +1,83 @@
+.ui.horizontal.divider:after,
+.ui.horizontal.divider:before {
+  background-image: url("../../assets/DividerLine.svg") !important;
+}
+
+.build-card {
+  width: 322px;
+  height: 290px;
+  background-color: #252b45;
+  padding: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 3px 6px #000000;
+  margin: 13px 0;
+}
+
+.build-card > i {
+  font-size: 5rem;
+}
+
+.build-card > h4 {
+  width: 290px;
+}
+
+.build-card > h5 {
+  margin: 0;
+  width: 290px;
+}
+
+.gods-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: calc(100vh - 87.69px - 126px);
+}
+
+.gods-page > .banner {
+  max-width: 1366px;
+  width: 100%;
+  height: 519px;
+  box-shadow: 0 3px 6px #000000;
+  background-color: #1f2439;
+}
+
+.gods-page > .banner > img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.gods-page > .banner > h1 {
+  margin: 0;
+  padding: 26px 52px 0;
+}
+
+.gods-page > .banner > h3 {
+  margin: 0;
+  padding: 0 52px;
+}
+
+.gods-page > .divider {
+  padding: 32px 0 13px;
+}
+
+.gods-page > .build-card-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gods-page > .page-break {
+  width: 350px;
+}
+
+.no-builds {
+  padding: 100px 0;
+}

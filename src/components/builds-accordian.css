@@ -1,0 +1,7 @@
+.builds-accordion div.title:not(.ui) {
+  color: white !important;
+}
+
+.builds-accordion div.content a {
+  color: white;
+}

@@ -1,0 +1,6 @@
+.twitch-embed {
+  max-width: 768px;
+  width: 100%;
+  min-width: 300px;
+  margin: 0;
+}

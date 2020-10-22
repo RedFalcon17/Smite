@@ -1,0 +1,71 @@
+.item {
+  color: white !important;
+  background-color: red;
+}
+
+.menu.transition.visible {
+  background-color: black !important;
+}
+
+#__root > div > div > div > div > div > div > li > div.text {
+  font-weight: 700;
+  color: white;
+}
+
+.ui.dropdown .menu .menu {
+  top: -13px !important;
+  left: 90%;
+}
+
+.ui.menu .ui.dropdown .menu > .item.subnav {
+  font-size: 0.8em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+}
+
+.menu.transition.visible > .item {
+  background-color: #252b45 !important;
+  color: white !important;
+}
+
+.ui .active.visible.dropdown.role > div.menu.transition.visible.gods > a.item {
+  font-size: 0.8em !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+}
+
+.ui.menu .ui.dropdown .menu > .item {
+  color: white !important;
+}
+
+/* .ui.menu .ui.dropdown .menu > .item {
+  font-size: 0.8em !important;
+} */
+
+.ui.menu .ui.dropdown .menu > .item:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.ui.active.visible.dropdown > div.menu.transition.visible.gods {
+  display: flex !important;
+  justify-content: space-around;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.ui.active.visible.dropdown > div.menu.transition.visible.gods > .item {
+  width: 100px;
+  padding: 0 5px;
+}
+
+.role {
+  width: 100px;
+}
+
+.role > .text {
+  font-size: 0.8em !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}

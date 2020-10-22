@@ -1,0 +1,26 @@
+.mobile {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mobile > .mobile-menu {
+  border: none;
+}
+
+.mobile > .mobile-menu > div > a {
+  color: #d3d3d3;
+}
+
+.mobile > .mobile-menu > .segment {
+  padding: 0 0 0.5em;
+}
+
+.mobile > .mobile-menu > .segment > .container {
+  padding: 0;
+  border: 0;
+}
+
+.mobile > .mobile-menu > .segment > .container > {
+  margin: 0;
+}

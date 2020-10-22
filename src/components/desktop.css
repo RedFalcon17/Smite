@@ -1,0 +1,23 @@
+.desktop {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.desktop > .segment {
+  padding: 3em 0 0;
+}
+
+.menu-links {
+  display: flex;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1366px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 70px 0;
+}

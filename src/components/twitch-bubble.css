@@ -1,0 +1,78 @@
+.twitch-bubble {
+  position: sticky;
+  bottom: 25px;
+  border: 1px solid white;
+  max-width: 50px;
+  width: 100%;
+  align-self: flex-end;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-top: 1px;
+  z-index: 1;
+}
+
+.twitch-bubble:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid white;
+  border-radius: 50%;
+  transform-origin: center;
+  transform: scale(1);
+}
+
+.twitch-bubble:hover::before {
+  transition: all 0.75s ease-in-out;
+  transform-origin: center;
+  transform: scale(1.75);
+  opacity: 0;
+}
+
+.twitch-bubble:hover {
+  background-color: white;
+  color: #252b45 !important;
+  cursor: pointer;
+}
+
+.twitch-bubble:hover,
+.twitch-bubble:hover i {
+  color: #252b45;
+}
+
+.twitch-window {
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  width: 305px;
+  height: 195.5px;
+  background-color: #141726;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 3px 6px #00000040;
+}
+
+.twitch-window-container {
+  width: 100%;
+  height: 20px;
+  padding: 1px 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+.twitch-embed-wrapper {
+  width: 305px;
+  height: 175.5px;
+  margin: 0 auto;
+}

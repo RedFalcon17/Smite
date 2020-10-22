@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:400,700&display=swap");
+
+html,
+body {
+  min-height: 100%;
+}
+
+#__root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body,
+* {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Heebo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 3.052em;
+}
+
+h2 {
+  font-size: 2.441em;
+}
+
+h3 {
+  font-size: 1.953em;
+}
+
+h4 {
+  font-size: 1.563em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  color: #de7300;
+}
+
+.yellow {
+  color: #fdcb6e;
+}
+
+.ss-dark-navy {
+  background-color: #141726 !important;
+}
+
+.ss-navy {
+  background-color: #252b45 !important;
+}
+
+.ss-nav {
+  height: 126px;
+}
+
+.ss-nav > a {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.ss-nav > div > div > a.item {
+  font-weight: 700 !important;
+}
+
+.ss-nav > .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1366px !important;
+  width: 100%;
+}
+
+.ss-nav > .container > li.item {
+  font-weight: 700;
+}
+
+.link.item > .text {
+  color: #d3d3d3;
+}
+
+.ss-nav > .container > li.item > a {
+  color: #d3d3d3;
+}
+
+.ss-nav > .container > li.item > a.orange {
+  color: #de7300;
+}
+
+.ui.active.visible.dropdown.link.item {
+  background-color: black;
+}
+
+.ss-logo {
+  width: 275px;
+  text-align: center;
+}
+
+.ss-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: #141726;
+  width: 100%;
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .coming-soon {
+    min-height: calc(100vh - 87.69px - 126px);
+    padding: 150px;
+  }
+}
